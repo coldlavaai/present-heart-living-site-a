@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/pilates-classes-highlands/layout,_N_T_/pilates-classes-highlands/page,_N_T_/pilates-classes-highlands"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/pilates-classes-highlands/__PAGE__",
+    "/pilates-classes-highlands",
+    "/_index",
+    "/_head"
+  ]
+}

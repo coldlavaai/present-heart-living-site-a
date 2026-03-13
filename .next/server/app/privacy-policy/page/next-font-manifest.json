@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/privacy-policy/page": [
+      "static/media/01e4147cff8141ee-s.p.7787e134.woff2",
+      "static/media/f141b5b7abe57afc-s.p.0de3c900.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}
