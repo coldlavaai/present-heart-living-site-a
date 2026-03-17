@@ -39,7 +39,7 @@ export default function Hero({
           {title}
         </h1>
         {subtitle && (
-          <p className="text-white/90 text-lg md:text-xl font-body max-w-2xl mx-auto mb-8 leading-relaxed">
+          <p className="text-white/90 text-lg md:text-xl font-body max-w-2xl mx-auto mb-8 leading-relaxed" style={{ color: 'rgba(255,255,255,0.9)' }}>
             {subtitle}
           </p>
         )}
@@ -51,7 +51,7 @@ export default function Hero({
               </Button>
             )}
             {secondaryCTA && (
-              <Button href={secondaryCTA.href} variant="outline">
+              <Button href={secondaryCTA.href} variant="outline-light">
                 {secondaryCTA.label}
               </Button>
             )}

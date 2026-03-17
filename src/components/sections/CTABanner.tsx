@@ -13,7 +13,7 @@ export default function CTABanner({ title, subtitle, primaryCTA, secondaryCTA }:
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-white mb-4" style={{ color: '#FFFFFF' }}>{title}</h2>
         {subtitle && (
-          <p className="text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed">{subtitle}</p>
+          <p className="text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed" style={{ color: 'rgba(255,255,255,0.8)' }}>{subtitle}</p>
         )}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button href={primaryCTA.href} variant="primary">
