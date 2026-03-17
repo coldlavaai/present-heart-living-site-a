@@ -69,6 +69,23 @@ export default function HomePage() {
         secondaryCTA={{ label: "Explore Classes", href: "/classes" }}
       />
 
+      {/* Hero Intro */}
+      <section className="py-12 lg:py-16 bg-mist/30">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="prose text-peat/80 leading-relaxed space-y-6 mx-auto text-lg">
+            <p>
+              Present Heart Living offers yoga, Pilates and breathwork practices designed to help
+              individuals reconnect with their bodies, calm the mind and cultivate awareness in everyday
+              life.
+            </p>
+            <p>
+              Classes are welcoming, supportive and suitable for both beginners and experienced
+              practitioners who are looking for a balanced and mindful approach to movement.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Intro */}
       <section className="py-16 lg:py-24">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

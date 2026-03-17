@@ -127,7 +127,7 @@ export default function LocationsPage() {
       </section>
 
       <CTABanner
-        title="Start Your Journey"
+        title="Ready to Begin?"
         primaryCTA={{ label: "Explore Classes", href: "/classes" }}
         secondaryCTA={{ label: "Book a Class", href: "/contact" }}
       />

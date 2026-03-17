@@ -77,8 +77,15 @@ export default function JournalPage() {
               practices, relaxation methods and reflections on how these practices can support everyday life.
             </p>
             <p>
-              Whether you are new to yoga or have been practising for many years, the journal offers ideas
-              and insights that may support your personal wellbeing journey.
+              Some articles will introduce specific aspects of yoga and Pilates practice, helping readers
+              better understand how movement and breath can support strength, flexibility and wellbeing.
+              Others may explore themes such as stress, rest, awareness and the importance of slowing down
+              within modern life.
+            </p>
+            <p>
+              The intention of the journal is not simply to provide information, but to encourage curiosity
+              and reflection. Whether you are new to yoga or have been practising for many years, the journal
+              offers ideas and insights that may support your personal wellbeing journey.
             </p>
           </div>
         </div>
