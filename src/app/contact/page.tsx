@@ -131,6 +131,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-sm transition-colors bg-sage text-white hover:bg-forest"
+                  style={{ color: '#FFFFFF' }}
                 >
                   Send Message
                 </button>

@@ -40,6 +40,20 @@ const classes = [
     imageSrc: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop",
     imageAlt: "Pilates mat practice",
   },
+  {
+    title: "Breathwork",
+    description: "Breathing practices that support relaxation, focus and emotional balance.",
+    href: "/classes/breathwork",
+    imageSrc: "https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?w=600&h=400&fit=crop",
+    imageAlt: "Breathwork and meditation practice",
+  },
+  {
+    title: "Sound Baths",
+    description: "Immersive relaxation experiences using sound and vibration to encourage deep rest and calm.",
+    href: "/classes/sound-baths",
+    imageSrc: "https://images.unsplash.com/photo-1591228127121-c36534347f84?w=600&h=400&fit=crop",
+    imageAlt: "Sound bath with singing bowls",
+  },
 ];
 
 export default function HomePage() {
@@ -83,7 +97,7 @@ export default function HomePage() {
               Present Heart Living offers a range of practices designed to support both physical and mental wellbeing.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {classes.map((cls) => (
               <ClassCard key={cls.title} {...cls} />
             ))}

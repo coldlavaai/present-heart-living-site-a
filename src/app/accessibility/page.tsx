@@ -12,7 +12,7 @@ export default function AccessibilityPage() {
       {/* Header */}
       <section className="bg-forest py-16 lg:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-heading font-normal leading-tight">
+          <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-heading font-normal leading-tight" style={{ color: '#FFFFFF' }}>
             Accessibility Statement
           </h1>
         </div>

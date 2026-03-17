@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand */}
           <div>
-            <h3 className="font-heading text-xl text-white mb-4">Present Heart Living</h3>
+            <h3 className="font-heading text-xl text-white mb-4" style={{ color: '#FFFFFF' }}>Present Heart Living</h3>
             <p className="text-sm text-white/70 leading-relaxed">
               Yoga, Pilates and breathwork practices in the Scottish Highlands. 
               Mindful movement for a balanced life.
@@ -16,7 +16,7 @@ export default function Footer() {
 
           {/* Classes */}
           <div>
-            <h4 className="font-heading text-lg text-white mb-4">Classes</h4>
+            <h4 className="font-heading text-lg text-white mb-4" style={{ color: '#FFFFFF' }}>Classes</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/classes/seasonal-flow-yoga" className="text-white/70 hover:text-white no-underline transition-colors">Seasonal Flow Yoga</Link></li>
               <li><Link href="/classes/restorative-yoga" className="text-white/70 hover:text-white no-underline transition-colors">Restorative Yoga</Link></li>
@@ -29,7 +29,7 @@ export default function Footer() {
 
           {/* Explore */}
           <div>
-            <h4 className="font-heading text-lg text-white mb-4">Explore</h4>
+            <h4 className="font-heading text-lg text-white mb-4" style={{ color: '#FFFFFF' }}>Explore</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/about-present-heart-living" className="text-white/70 hover:text-white no-underline transition-colors">About</Link></li>
               <li><Link href="/about/audrey-buchanan" className="text-white/70 hover:text-white no-underline transition-colors">Meet Audrey</Link></li>
@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-heading text-lg text-white mb-4">Contact</h4>
+            <h4 className="font-heading text-lg text-white mb-4" style={{ color: '#FFFFFF' }}>Contact</h4>
             <address className="not-italic text-sm text-white/70 space-y-2">
               <p>9 Breac An Ord<br />Maryburgh<br />Ross Shire<br />IV7 8DH</p>
               <p>

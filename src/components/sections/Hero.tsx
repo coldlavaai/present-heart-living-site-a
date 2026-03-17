@@ -35,7 +35,7 @@ export default function Hero({
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-heading font-normal mb-4 leading-tight">
+        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-heading font-normal mb-4 leading-tight" style={{ color: '#FFFFFF' }}>
           {title}
         </h1>
         {subtitle && (

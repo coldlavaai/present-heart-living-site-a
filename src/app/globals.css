@@ -26,8 +26,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
-  color: var(--color-forest);
   letter-spacing: 0.02em;
+}
+
+/* Default heading colour — only when NOT overridden by a Tailwind utility */
+h1:not([class*="text-"]),
+h2:not([class*="text-"]),
+h3:not([class*="text-"]),
+h4:not([class*="text-"]),
+h5:not([class*="text-"]),
+h6:not([class*="text-"]) {
+  color: var(--color-forest);
 }
 
 h1 {
@@ -61,12 +70,12 @@ h3 {
   body { font-size: 1.125rem; }
 }
 
-a {
+/* Default link colour — only when NOT overridden by Tailwind */
+a:not([class*="text-"]):not([class*="bg-"]) {
   color: var(--color-sage);
-  text-decoration: none;
 }
 
-a:hover {
+a:not([class*="no-underline"]):hover {
   text-decoration: underline;
 }
 

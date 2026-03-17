@@ -57,8 +57,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link href="/" className="font-heading text-xl lg:text-2xl text-forest font-medium no-underline hover:no-underline">
-            Present Heart Living
+          <Link href="/" className="no-underline hover:no-underline flex flex-col">
+            <span className="font-heading text-xl lg:text-2xl text-forest font-medium">
+              Present Heart Living
+            </span>
+            <span className="hidden sm:block text-xs text-peat/60 font-body tracking-wide">
+              Yoga · Pilates · Breathwork · Retreats
+            </span>
           </Link>
 
           {/* Desktop Nav */}
@@ -96,7 +101,8 @@ export default function Header() {
           {/* Desktop CTA */}
           <Link
             href="/contact"
-            className="hidden lg:inline-flex items-center px-5 py-2.5 bg-sage text-white text-sm font-semibold rounded-lg hover:bg-forest no-underline transition-colors"
+            className="hidden lg:inline-flex items-center px-5 py-2.5 bg-sage text-sm font-semibold rounded-lg hover:bg-forest no-underline transition-colors"
+            style={{ color: '#FFFFFF' }}
           >
             Book a Class
           </Link>
@@ -150,7 +156,8 @@ export default function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="block mt-4 text-center px-5 py-3 bg-sage text-white font-semibold rounded-lg no-underline"
+              className="block mt-4 text-center px-5 py-3 bg-sage font-semibold rounded-lg no-underline"
+              style={{ color: '#FFFFFF' }}
             >
               Book a Class
             </Link>

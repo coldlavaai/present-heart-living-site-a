@@ -11,7 +11,7 @@ export default function CTABanner({ title, subtitle, primaryCTA, secondaryCTA }:
   return (
     <section className="bg-forest py-16 lg:py-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-white mb-4">{title}</h2>
+        <h2 className="text-white mb-4" style={{ color: '#FFFFFF' }}>{title}</h2>
         {subtitle && (
           <p className="text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed">{subtitle}</p>
         )}
@@ -20,7 +20,7 @@ export default function CTABanner({ title, subtitle, primaryCTA, secondaryCTA }:
             {primaryCTA.label}
           </Button>
           {secondaryCTA && (
-            <Button href={secondaryCTA.href} variant="outline">
+            <Button href={secondaryCTA.href} variant="outline-light">
               {secondaryCTA.label}
             </Button>
           )}
